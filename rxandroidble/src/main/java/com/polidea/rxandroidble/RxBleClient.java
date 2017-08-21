@@ -89,7 +89,7 @@ public abstract class RxBleClient {
      * Returns an infinite observable emitting BLE scan results.
      * Scan is automatically started and stopped based on the Observable lifecycle.
      * Scan is started on subscribe and stopped on unsubscribe. You can safely subscribe multiple observers to this observable.
-     * When defining filterServiceUUIDs have in mind that the {@link RxBleScanResult} will be emitted only if _all_ UUIDs will be present
+     * When defining filterServiceUUIDs have in mind that the {@link RxBleScanResult} will be emitted only if _all_ UUIDs are present
      * in the advertisement.
      * <p>
      * The library automatically handles Bluetooth adapter state changes but you are supposed to prompt
