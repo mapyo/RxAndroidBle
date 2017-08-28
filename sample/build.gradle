@@ -53,4 +53,5 @@ dependencies {
     compile 'com.trello:rxlifecycle:1.0'
     compile 'com.trello:rxlifecycle-components:1.0'
     testCompile project(path: ':mockrxandroidble')
+    testCompile 'junit:junit:4.12'
 }
