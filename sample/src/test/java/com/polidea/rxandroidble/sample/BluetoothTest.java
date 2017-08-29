@@ -9,6 +9,8 @@ import com.polidea.rxandroidble.mockrxandroidble.RxBleClientMock;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.robolectric.RobolectricTestRunner;
 
 import java.util.List;
 import java.util.UUID;
@@ -17,6 +19,7 @@ import rx.Observable;
 import rx.functions.Func1;
 import rx.observers.TestSubscriber;
 
+@RunWith(RobolectricTestRunner.class)
 public class BluetoothTest {
     private final static String MOCK_MAC_ADDRESS = "12:AB:34:BC:56:DE";
 
@@ -35,7 +38,6 @@ public class BluetoothTest {
 
     @Test
     public void testMessageSmallerThanMtu() {
-
         TestSubscriber<byte[]> messageIndicationSubscriber = TestSubscriber.create();
 
         bleClient.getBleDevice(MOCK_MAC_ADDRESS)
