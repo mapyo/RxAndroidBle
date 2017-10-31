@@ -1,7 +1,7 @@
 ext {
     supportVersion = '25.3.1'
     buildToolsVersionVariable = "26.0.2"
-    rxJavaVersion = '1.3.1'
+    rxJavaVersion = '2.1.6'
     sourceCompatibilityVersion = JavaVersion.VERSION_1_7
     targetCompatibilityVersion = JavaVersion.VERSION_1_7
     daggerVersion = '2.8'
@@ -11,8 +11,8 @@ ext {
             support_annotations: "com.android.support:support-annotations:$supportVersion",
             rxjava             : ["io.reactivex:rxjava:$rxJavaVersion",
                                   "com.artemzin.rxjava:proguard-rules:$rxJavaVersion.0"],
-            rxandroid          : 'io.reactivex:rxandroid:1.2.1',
-            rxrelay            : 'com.jakewharton.rxrelay:rxrelay:1.2.0',
+            rxandroid          : 'io.reactivex:rxandroid:2.0.1',
+            rxrelay            : 'com.jakewharton.rxrelay:rxrelay:2.0.0',
             junit              : 'junit:junit:4.12',
             groovy             : 'org.codehaus.groovy:groovy:2.4.12:grooid',
             spock              : ['org.spockframework:spock-core:1.1-groovy-2.4',
