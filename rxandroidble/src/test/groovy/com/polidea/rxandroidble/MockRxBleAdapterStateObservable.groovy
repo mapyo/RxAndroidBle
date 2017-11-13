@@ -1,6 +1,6 @@
 package com.polidea.rxandroidble
 
-import rx.Observable
+import io.reactivex.Observable
 import rx.subjects.ReplaySubject
 
 class MockRxBleAdapterStateObservable {

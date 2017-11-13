@@ -11,11 +11,11 @@ import com.polidea.rxandroidble.scan.ScanSettings;
 import java.util.concurrent.TimeUnit;
 import javax.inject.Inject;
 import javax.inject.Named;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.functions.Func0;
 import rx.functions.Func1;
-import rx.observables.GroupedObservable;
+import io.reactivex.Observables.GroupedObservable;
 
 public class ScanSettingsEmulator {
 

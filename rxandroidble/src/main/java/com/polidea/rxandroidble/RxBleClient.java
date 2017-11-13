@@ -12,7 +12,7 @@ import com.polidea.rxandroidble.scan.ScanSettings;
 import java.util.Set;
 import java.util.UUID;
 
-import rx.Observable;
+import io.reactivex.Observable;
 
 public abstract class RxBleClient {
 

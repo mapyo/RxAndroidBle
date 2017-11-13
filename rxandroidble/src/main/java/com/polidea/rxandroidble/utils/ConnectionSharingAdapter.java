@@ -4,7 +4,7 @@ import com.polidea.rxandroidble.RxBleConnection;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.functions.Action0;
 
 /**

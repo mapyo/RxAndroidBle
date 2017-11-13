@@ -10,7 +10,7 @@ import com.polidea.rxandroidble.internal.connection.RxBleGattCallback;
 
 import javax.inject.Inject;
 
-import rx.Observable;
+import io.reactivex.Observable;
 
 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 public class MtuRequestOperation extends SingleResponseOperation<Integer> {

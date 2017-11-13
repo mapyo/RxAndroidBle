@@ -22,7 +22,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import rx.Emitter;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Observer;
 import rx.Scheduler;
 import rx.Subscriber;

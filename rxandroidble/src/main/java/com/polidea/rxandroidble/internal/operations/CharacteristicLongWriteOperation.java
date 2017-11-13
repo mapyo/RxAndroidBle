@@ -27,7 +27,7 @@ import java.util.UUID;
 import javax.inject.Named;
 
 import rx.Emitter;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.Subscription;
 import rx.functions.Action0;

@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import rx.Completable;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.functions.Action0;
 import rx.functions.Actions;
 import rx.functions.Func1;

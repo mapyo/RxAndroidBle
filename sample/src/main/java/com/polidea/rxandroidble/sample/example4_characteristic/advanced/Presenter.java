@@ -9,7 +9,7 @@ import android.support.annotation.NonNull;
 import com.polidea.rxandroidble.NotificationSetupMode;
 import com.polidea.rxandroidble.RxBleDevice;
 import java.util.UUID;
-import rx.Observable;
+import io.reactivex.Observable;
 
 /**
  * Presenter class for {@link AdvancedCharacteristicOperationExampleActivity}. Prepares the logic for the activity using passed

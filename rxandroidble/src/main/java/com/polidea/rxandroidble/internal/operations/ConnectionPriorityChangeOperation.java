@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Scheduler;
 
 public class ConnectionPriorityChangeOperation extends SingleResponseOperation<Long> {

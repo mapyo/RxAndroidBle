@@ -36,7 +36,7 @@ import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
 import dagger.Provides;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;

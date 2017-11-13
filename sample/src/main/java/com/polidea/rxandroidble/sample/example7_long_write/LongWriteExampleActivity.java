@@ -11,7 +11,7 @@ import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
 
 import java.util.UUID;
 
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Subscription;
 
 /**

@@ -33,7 +33,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import dagger.Lazy;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.functions.Action0;
 import rx.functions.Func0;

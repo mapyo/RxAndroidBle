@@ -4,7 +4,7 @@ import android.bluetooth.BluetoothDevice
 import android.bluetooth.BluetoothGatt
 import android.bluetooth.BluetoothGattCallback
 import android.bluetooth.BluetoothGattCharacteristic
-import rx.Observable
+import io.reactivex.Observable
 import rx.internal.schedulers.ImmediateScheduler
 import rx.observers.TestSubscriber
 import spock.lang.Ignore

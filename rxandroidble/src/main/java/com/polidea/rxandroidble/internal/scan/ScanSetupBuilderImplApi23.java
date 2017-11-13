@@ -9,7 +9,7 @@ import com.polidea.rxandroidble.internal.util.RxBleAdapterWrapper;
 import com.polidea.rxandroidble.scan.ScanFilter;
 import com.polidea.rxandroidble.scan.ScanSettings;
 import javax.inject.Inject;
-import rx.Observable;
+import io.reactivex.Observable;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)
 public class ScanSetupBuilderImplApi23 implements ScanSetupBuilder {

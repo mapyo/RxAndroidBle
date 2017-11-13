@@ -21,7 +21,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import rx.Emitter;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Subscription;
 import rx.functions.Action0;
 import rx.functions.Action1;

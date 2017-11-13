@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 import javax.inject.Inject;
 import javax.inject.Named;
 import rx.Emitter;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.Single;
 import rx.Subscription;

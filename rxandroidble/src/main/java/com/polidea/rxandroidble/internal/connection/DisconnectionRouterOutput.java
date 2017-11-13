@@ -2,7 +2,7 @@ package com.polidea.rxandroidble.internal.connection;
 
 
 import com.polidea.rxandroidble.exceptions.BleException;
-import rx.Observable;
+import io.reactivex.Observable;
 
 /**
  * Interface to output disconnection error causes. It is used for instance to notify when the

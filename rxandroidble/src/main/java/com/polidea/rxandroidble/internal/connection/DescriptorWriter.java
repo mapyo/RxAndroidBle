@@ -5,7 +5,7 @@ import android.bluetooth.BluetoothGattDescriptor;
 import com.polidea.rxandroidble.internal.operations.OperationsProvider;
 import com.polidea.rxandroidble.internal.serialization.ConnectionOperationQueue;
 import javax.inject.Inject;
-import rx.Observable;
+import io.reactivex.Observable;
 
 @ConnectionScope
 class DescriptorWriter {

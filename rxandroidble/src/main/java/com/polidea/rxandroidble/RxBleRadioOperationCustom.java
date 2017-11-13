@@ -4,7 +4,7 @@ import android.bluetooth.BluetoothGatt;
 import android.support.annotation.NonNull;
 import com.polidea.rxandroidble.internal.connection.RxBleGattCallback;
 import com.polidea.rxandroidble.internal.serialization.ConnectionOperationQueue;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Scheduler;
 
 /**

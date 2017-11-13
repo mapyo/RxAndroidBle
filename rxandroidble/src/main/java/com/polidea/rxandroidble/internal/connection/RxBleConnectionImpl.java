@@ -31,7 +31,7 @@ import javax.inject.Provider;
 
 import rx.Completable;
 import rx.Emitter;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.functions.Action0;
 import rx.functions.Func1;

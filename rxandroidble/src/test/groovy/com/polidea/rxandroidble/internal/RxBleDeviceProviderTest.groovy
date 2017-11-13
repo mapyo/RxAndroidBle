@@ -5,7 +5,7 @@ import android.content.Context
 import com.polidea.rxandroidble.RxBleConnection
 import com.polidea.rxandroidble.RxBleDevice
 import com.polidea.rxandroidble.internal.cache.DeviceComponentCache
-import rx.Observable
+import io.reactivex.Observable
 import spock.lang.Specification
 
 import javax.inject.Provider

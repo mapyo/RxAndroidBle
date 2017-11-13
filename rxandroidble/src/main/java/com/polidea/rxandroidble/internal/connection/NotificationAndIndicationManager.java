@@ -19,7 +19,7 @@ import java.util.UUID;
 import javax.inject.Inject;
 import javax.inject.Named;
 import rx.Completable;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.functions.Action0;
 import rx.functions.Actions;
 import rx.functions.Func0;

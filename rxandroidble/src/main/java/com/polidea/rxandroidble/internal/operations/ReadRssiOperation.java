@@ -10,7 +10,7 @@ import com.polidea.rxandroidble.internal.connection.RxBleGattCallback;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import rx.Observable;
+import io.reactivex.Observable;
 
 public class ReadRssiOperation extends SingleResponseOperation<Integer> {
 

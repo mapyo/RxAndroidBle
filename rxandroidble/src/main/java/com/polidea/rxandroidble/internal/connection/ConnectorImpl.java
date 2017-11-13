@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.concurrent.Callable;
 import javax.inject.Inject;
 
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.functions.Action0;
 import rx.functions.Func0;
 

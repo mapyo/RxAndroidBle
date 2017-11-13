@@ -3,11 +3,11 @@ package com.polidea.rxandroidble.helpers;
 
 import android.support.annotation.NonNull;
 import java.nio.ByteBuffer;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Observer;
 import rx.functions.Action2;
 import rx.functions.Func0;
-import rx.observables.SyncOnSubscribe;
+import io.reactivex.Observables.SyncOnSubscribe;
 
 /**
  * A helper class for reactive batching of long byte arrays.

@@ -16,7 +16,7 @@ import rx.Completable
 
 import java.util.concurrent.TimeUnit
 import com.polidea.rxandroidble.internal.util.MockOperationTimeoutConfiguration
-import rx.Observable
+import io.reactivex.Observable
 import rx.Scheduler
 import rx.observers.TestSubscriber
 import rx.schedulers.TestScheduler

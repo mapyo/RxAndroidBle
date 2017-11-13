@@ -10,7 +10,7 @@ import android.support.annotation.NonNull;
 import javax.inject.Inject;
 
 import rx.Emitter;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.functions.Action1;
 import rx.functions.Cancellable;
 import rx.internal.operators.OnSubscribeCreate;

@@ -2,7 +2,7 @@ package com.polidea.rxandroidble.internal.serialization
 
 import com.polidea.rxandroidble.MockOperation
 import rx.Emitter
-import rx.Observable
+import io.reactivex.Observable
 import rx.Scheduler
 import rx.observers.TestSubscriber
 import rx.schedulers.Schedulers

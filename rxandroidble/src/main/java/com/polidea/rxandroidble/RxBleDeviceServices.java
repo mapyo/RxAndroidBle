@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.UUID;
 
 import java.util.concurrent.Callable;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.functions.Func1;
 
 /**

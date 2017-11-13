@@ -12,7 +12,7 @@ import com.polidea.rxandroidble.exceptions.BleConflictingNotificationAlreadySetE
 import com.polidea.rxandroidble.internal.util.CharacteristicChangedEvent
 import org.robolectric.annotation.Config
 import org.robospock.RoboSpecification
-import rx.Observable
+import io.reactivex.Observable
 import rx.observers.TestSubscriber
 import rx.subjects.BehaviorSubject
 import rx.subjects.PublishSubject
