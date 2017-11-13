@@ -5,7 +5,7 @@ import android.support.annotation.NonNull;
 import java.nio.ByteBuffer;
 import io.reactivex.Observable;
 import rx.Observer;
-import rx.functions.Action2;
+import io.reactivex.functions.BiConsumer;
 import rx.functions.Func0;
 import io.reactivex.Observables.SyncOnSubscribe;
 

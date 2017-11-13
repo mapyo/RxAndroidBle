@@ -16,7 +16,7 @@ import java.util.Set;
 import javax.inject.Inject;
 
 import io.reactivex.Observable;
-import rx.functions.Action2;
+import io.reactivex.functions.BiConsumer;
 import rx.functions.Func0;
 import rx.functions.Func1;
 
