@@ -21,7 +21,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import rx.Completable;
 import io.reactivex.Observable;
-import rx.functions.Action0;
+import io.reactivex.functions.Action;
 import rx.functions.Actions;
 import rx.functions.Func1;
 

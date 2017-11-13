@@ -23,7 +23,7 @@ import javax.inject.Named;
 import io.reactivex.Emitter;
 import io.reactivex.Observable;
 import rx.Subscription;
-import rx.functions.Action0;
+import io.reactivex.functions.Action;
 import io.reactivex.functions.Consumer;
 import rx.functions.Cancellable;
 import rx.functions.Func0;

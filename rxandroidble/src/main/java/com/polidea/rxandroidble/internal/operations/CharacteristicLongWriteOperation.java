@@ -30,7 +30,7 @@ import io.reactivex.Emitter;
 import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.Subscription;
-import rx.functions.Action0;
+import io.reactivex.functions.Action;
 import io.reactivex.functions.Consumer;
 import rx.functions.Func1;
 

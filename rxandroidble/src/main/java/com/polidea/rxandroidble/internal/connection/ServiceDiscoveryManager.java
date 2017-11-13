@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 import javax.inject.Inject;
 import io.reactivex.Observable;
-import rx.functions.Action0;
+import io.reactivex.functions.Action;
 import io.reactivex.functions.Consumer;
 import rx.functions.Func0;
 import rx.functions.Func1;

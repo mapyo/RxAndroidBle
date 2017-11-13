@@ -5,7 +5,7 @@ import com.polidea.rxandroidble.RxBleConnection;
 import java.util.concurrent.atomic.AtomicReference;
 
 import io.reactivex.Observable;
-import rx.functions.Action0;
+import io.reactivex.functions.Action;
 
 /**
  * Observable transformer that can be used to share connection between many subscribers.

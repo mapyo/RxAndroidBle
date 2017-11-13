@@ -11,7 +11,7 @@ import java.util.concurrent.Callable;
 import javax.inject.Inject;
 
 import io.reactivex.Observable;
-import rx.functions.Action0;
+import io.reactivex.functions.Action;
 import rx.functions.Func0;
 
 public class ConnectorImpl implements Connector {

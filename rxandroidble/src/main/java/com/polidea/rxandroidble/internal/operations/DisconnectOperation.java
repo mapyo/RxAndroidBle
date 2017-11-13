@@ -26,7 +26,7 @@ import io.reactivex.Observable;
 import rx.Observer;
 import rx.Scheduler;
 import rx.Subscriber;
-import rx.functions.Action0;
+import io.reactivex.functions.Action;
 import rx.functions.Func1;
 
 import static com.polidea.rxandroidble.RxBleConnection.RxBleConnectionState.DISCONNECTED;
