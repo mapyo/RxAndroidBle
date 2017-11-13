@@ -9,9 +9,9 @@ import com.polidea.rxandroidble.internal.operations.Operation;
 import com.polidea.rxandroidble.internal.serialization.QueueReleaseInterface;
 import com.polidea.rxandroidble.internal.util.QueueReleasingEmitterWrapper;
 
-import rx.Emitter;
-import rx.Observable;
-import rx.functions.Action1;
+import io.reactivex.Emitter;
+import io.reactivex.Observable;
+import io.reactivex.functions.Consumer;
 
 /**
  * The base class for all operations that are executed on the Bluetooth Queue.

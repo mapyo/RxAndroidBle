@@ -2,7 +2,7 @@ package com.polidea.rxandroidble.internal.connection;
 
 import com.polidea.rxandroidble.RxBleConnection;
 
-import rx.Observable;
+import io.reactivex.Observable;
 
 public class ImmediateSerializedBatchAckStrategy implements RxBleConnection.WriteOperationAckStrategy {
 

@@ -9,7 +9,7 @@ import com.polidea.rxandroidble.exceptions.BleAlreadyConnectedException
 import com.polidea.rxandroidble.exceptions.BleGattException
 import com.polidea.rxandroidble.exceptions.BleGattOperationType
 import com.polidea.rxandroidble.internal.connection.Connector
-import rx.Observable
+import io.reactivex.Observable
 import rx.observers.TestSubscriber
 import rx.subjects.PublishSubject
 import spock.lang.Shared

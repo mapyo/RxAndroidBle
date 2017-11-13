@@ -3,10 +3,10 @@ package com.polidea.rxandroidble
 import com.polidea.rxandroidble.exceptions.BleException
 import com.polidea.rxandroidble.internal.operations.Operation
 import com.polidea.rxandroidble.internal.serialization.ConnectionOperationQueue
-import rx.Emitter
-import rx.Observable
+import io.reactivex.Emitter
+import io.reactivex.Observable
 import rx.Subscription
-import rx.functions.Action1
+import io.reactivex.functions.Consumer
 import rx.functions.Cancellable
 
 class DummyOperationQueue implements ConnectionOperationQueue {

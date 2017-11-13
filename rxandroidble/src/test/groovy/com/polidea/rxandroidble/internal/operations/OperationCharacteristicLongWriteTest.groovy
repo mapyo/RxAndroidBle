@@ -15,7 +15,7 @@ import com.polidea.rxandroidble.internal.util.MockOperationTimeoutConfiguration
 import java.nio.ByteBuffer
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.atomic.AtomicInteger
-import rx.Observable
+import io.reactivex.Observable
 import rx.functions.Func1
 import rx.internal.schedulers.ImmediateScheduler
 import rx.observers.TestSubscriber

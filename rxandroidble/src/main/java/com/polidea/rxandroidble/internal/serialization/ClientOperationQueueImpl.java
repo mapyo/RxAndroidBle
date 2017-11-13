@@ -6,11 +6,11 @@ import com.polidea.rxandroidble.internal.RxBleLog;
 import com.polidea.rxandroidble.internal.operations.Operation;
 import javax.inject.Inject;
 import javax.inject.Named;
-import rx.Emitter;
-import rx.Observable;
+import io.reactivex.Emitter;
+import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.Subscription;
-import rx.functions.Action1;
+import io.reactivex.functions.Consumer;
 import rx.functions.Cancellable;
 
 public class ClientOperationQueueImpl implements ClientOperationQueue {

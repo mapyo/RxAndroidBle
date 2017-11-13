@@ -10,7 +10,7 @@ import com.polidea.rxandroidble.internal.DeviceModule;
 import com.polidea.rxandroidble.internal.util.RxBleAdapterWrapper;
 import javax.inject.Inject;
 import javax.inject.Named;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.functions.Func1;
 
 /**

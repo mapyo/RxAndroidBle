@@ -15,7 +15,7 @@ import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 

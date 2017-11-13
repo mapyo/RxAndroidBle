@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.functions.Func1;
 import rx.subjects.ReplaySubject;
 

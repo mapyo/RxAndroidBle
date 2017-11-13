@@ -7,7 +7,7 @@ import com.polidea.rxandroidble.internal.serialization.ClientOperationQueue
 
 import com.polidea.rxandroidble.internal.operations.ConnectOperation
 import java.util.concurrent.atomic.AtomicReference
-import rx.Observable
+import io.reactivex.Observable
 import rx.Subscription
 import rx.observers.TestSubscriber
 import rx.subjects.PublishSubject

@@ -3,7 +3,7 @@ package com.polidea.rxandroidble.internal.scan;
 
 import android.support.annotation.RestrictTo;
 import com.polidea.rxandroidble.internal.operations.Operation;
-import rx.Observable;
+import io.reactivex.Observable;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)
 public class ScanSetup {

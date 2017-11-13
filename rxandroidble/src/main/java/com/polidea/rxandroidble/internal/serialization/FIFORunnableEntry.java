@@ -4,7 +4,7 @@ package com.polidea.rxandroidble.internal.serialization;
 import android.support.annotation.NonNull;
 import com.polidea.rxandroidble.internal.operations.Operation;
 import java.util.concurrent.atomic.AtomicLong;
-import rx.Emitter;
+import io.reactivex.Emitter;
 import rx.Scheduler;
 import rx.Subscription;
 

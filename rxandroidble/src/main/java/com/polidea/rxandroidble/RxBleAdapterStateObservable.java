@@ -9,9 +9,9 @@ import android.support.annotation.NonNull;
 
 import javax.inject.Inject;
 
-import rx.Emitter;
-import rx.Observable;
-import rx.functions.Action1;
+import io.reactivex.Emitter;
+import io.reactivex.Observable;
+import io.reactivex.functions.Consumer;
 import rx.functions.Cancellable;
 import rx.internal.operators.OnSubscribeCreate;
 

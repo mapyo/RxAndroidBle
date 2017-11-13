@@ -20,11 +20,11 @@ import com.polidea.rxandroidble.internal.util.BleConnectionCompat;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import rx.Emitter;
-import rx.Observable;
+import io.reactivex.Emitter;
+import io.reactivex.Observable;
 import rx.Subscription;
-import rx.functions.Action0;
-import rx.functions.Action1;
+import io.reactivex.functions.Action;
+import io.reactivex.functions.Consumer;
 import rx.functions.Cancellable;
 import rx.functions.Func0;
 import rx.functions.Func1;

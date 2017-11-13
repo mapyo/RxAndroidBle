@@ -23,7 +23,7 @@ import com.polidea.rxandroidble.exceptions.BleScanException
 import com.polidea.rxandroidble.internal.RxBleDeviceProvider
 import com.polidea.rxandroidble.internal.serialization.ClientOperationQueue
 import com.polidea.rxandroidble.internal.util.UUIDUtil
-import rx.Observable
+import io.reactivex.Observable
 import rx.internal.schedulers.ImmediateScheduler
 import rx.observers.TestSubscriber
 import spock.lang.Specification

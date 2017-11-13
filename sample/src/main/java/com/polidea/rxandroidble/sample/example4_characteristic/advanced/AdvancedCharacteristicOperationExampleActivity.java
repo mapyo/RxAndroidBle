@@ -18,7 +18,7 @@ import com.polidea.rxandroidble.sample.SampleApplication;
 import com.polidea.rxandroidble.sample.util.HexString;
 import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
 import java.util.UUID;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 

@@ -30,10 +30,10 @@ import javax.inject.Named;
 import javax.inject.Provider;
 
 import rx.Completable;
-import rx.Emitter;
-import rx.Observable;
+import io.reactivex.Emitter;
+import io.reactivex.Observable;
 import rx.Scheduler;
-import rx.functions.Action0;
+import io.reactivex.functions.Action;
 import rx.functions.Func1;
 
 import static android.bluetooth.BluetoothGattCharacteristic.PROPERTY_INDICATE;

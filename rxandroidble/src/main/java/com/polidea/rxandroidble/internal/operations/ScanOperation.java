@@ -7,7 +7,7 @@ import com.polidea.rxandroidble.internal.serialization.QueueReleaseInterface;
 import com.polidea.rxandroidble.internal.RxBleLog;
 import com.polidea.rxandroidble.internal.QueueOperation;
 import com.polidea.rxandroidble.internal.util.RxBleAdapterWrapper;
-import rx.Emitter;
+import io.reactivex.Emitter;
 import rx.functions.Cancellable;
 
 /**

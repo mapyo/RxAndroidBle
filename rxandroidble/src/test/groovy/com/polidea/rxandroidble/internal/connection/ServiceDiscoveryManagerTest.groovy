@@ -7,7 +7,7 @@ import com.polidea.rxandroidble.internal.serialization.ConnectionOperationQueue
 import com.polidea.rxandroidble.internal.operations.OperationsProvider
 import com.polidea.rxandroidble.internal.operations.ServiceDiscoveryOperation
 import java.util.concurrent.TimeUnit
-import rx.Observable
+import io.reactivex.Observable
 import rx.observers.TestSubscriber
 import rx.subjects.PublishSubject
 import spock.lang.Specification

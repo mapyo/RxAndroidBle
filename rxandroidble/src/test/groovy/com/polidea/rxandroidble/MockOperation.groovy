@@ -6,8 +6,8 @@ import com.polidea.rxandroidble.exceptions.BleException
 import com.polidea.rxandroidble.internal.Priority
 import com.polidea.rxandroidble.internal.serialization.QueueReleaseInterface
 import com.polidea.rxandroidble.internal.QueueOperation
-import rx.Emitter
-import rx.Observable
+import io.reactivex.Emitter
+import io.reactivex.Observable
 import rx.subjects.BehaviorSubject
 
 public class MockOperation extends QueueOperation<Object> {

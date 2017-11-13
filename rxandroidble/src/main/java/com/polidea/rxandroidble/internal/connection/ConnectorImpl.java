@@ -10,8 +10,8 @@ import java.util.Set;
 import java.util.concurrent.Callable;
 import javax.inject.Inject;
 
-import rx.Observable;
-import rx.functions.Action0;
+import io.reactivex.Observable;
+import io.reactivex.functions.Action;
 import rx.functions.Func0;
 
 public class ConnectorImpl implements Connector {

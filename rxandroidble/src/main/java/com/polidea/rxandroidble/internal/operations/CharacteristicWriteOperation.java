@@ -13,7 +13,7 @@ import java.util.UUID;
 
 import javax.inject.Named;
 
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.functions.Func1;
 
 public class CharacteristicWriteOperation extends SingleResponseOperation<byte[]> {

@@ -3,8 +3,8 @@ package com.polidea.rxandroidble.internal.connection;
 
 import javax.inject.Inject;
 import javax.inject.Named;
-import rx.Observable;
-import rx.functions.Action1;
+import io.reactivex.Observable;
+import io.reactivex.functions.Consumer;
 import rx.subscriptions.SerialSubscription;
 
 @ConnectionScope

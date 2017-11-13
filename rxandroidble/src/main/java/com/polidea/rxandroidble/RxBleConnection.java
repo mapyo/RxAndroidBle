@@ -25,7 +25,7 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 import rx.Completable;
-import rx.Observable;
+import io.reactivex.Observable;
 import rx.Scheduler;
 
 /**

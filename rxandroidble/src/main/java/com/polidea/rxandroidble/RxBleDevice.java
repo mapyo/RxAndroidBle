@@ -9,7 +9,7 @@ import com.polidea.rxandroidble.exceptions.BleDisconnectedException;
 import com.polidea.rxandroidble.exceptions.BleGattCallbackTimeoutException;
 import com.polidea.rxandroidble.exceptions.BleGattException;
 
-import rx.Observable;
+import io.reactivex.Observable;
 
 public interface RxBleDevice {
 

@@ -8,7 +8,7 @@ import com.polidea.rxandroidble.internal.BleIllegalOperationException;
 import javax.inject.Inject;
 
 import rx.Completable;
-import rx.functions.Action0;
+import io.reactivex.functions.Action;
 
 /**
  * Class for checking whether the requested operation is legal on chosen characteristic.
