@@ -19,7 +19,7 @@ import javax.inject.Inject;
 
 import io.reactivex.Emitter;
 import io.reactivex.Observable;
-import rx.functions.Action1;
+import io.reactivex.functions.Consumer;
 import rx.functions.Cancellable;
 import rx.internal.operators.OnSubscribeCreate;
 

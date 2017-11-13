@@ -13,7 +13,7 @@ import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.Single;
 import rx.Subscription;
-import rx.functions.Action1;
+import io.reactivex.functions.Consumer;
 import rx.functions.Cancellable;
 import rx.functions.Func1;
 import rx.internal.operators.OnSubscribeCreate;

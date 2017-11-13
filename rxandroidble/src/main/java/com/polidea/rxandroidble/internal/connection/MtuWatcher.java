@@ -4,7 +4,7 @@ package com.polidea.rxandroidble.internal.connection;
 import javax.inject.Inject;
 import javax.inject.Named;
 import io.reactivex.Observable;
-import rx.functions.Action1;
+import io.reactivex.functions.Consumer;
 import rx.subscriptions.SerialSubscription;
 
 @ConnectionScope

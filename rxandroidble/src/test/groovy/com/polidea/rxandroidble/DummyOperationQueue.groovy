@@ -6,7 +6,7 @@ import com.polidea.rxandroidble.internal.serialization.ConnectionOperationQueue
 import io.reactivex.Emitter
 import io.reactivex.Observable
 import rx.Subscription
-import rx.functions.Action1
+import io.reactivex.functions.Consumer
 import rx.functions.Cancellable
 
 class DummyOperationQueue implements ConnectionOperationQueue {

@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 import io.reactivex.Observable;
 import rx.functions.Action0;
-import rx.functions.Action1;
+import io.reactivex.functions.Consumer;
 import rx.functions.Func0;
 import rx.subjects.BehaviorSubject;
 

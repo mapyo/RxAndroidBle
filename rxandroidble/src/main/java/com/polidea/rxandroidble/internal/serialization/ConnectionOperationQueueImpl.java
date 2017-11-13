@@ -18,7 +18,7 @@ import io.reactivex.Emitter;
 import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.Subscription;
-import rx.functions.Action1;
+import io.reactivex.functions.Consumer;
 import rx.functions.Cancellable;
 
 @ConnectionScope

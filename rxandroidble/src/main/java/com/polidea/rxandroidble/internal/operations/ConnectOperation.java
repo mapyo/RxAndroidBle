@@ -24,7 +24,7 @@ import io.reactivex.Emitter;
 import io.reactivex.Observable;
 import rx.Subscription;
 import rx.functions.Action0;
-import rx.functions.Action1;
+import io.reactivex.functions.Consumer;
 import rx.functions.Cancellable;
 import rx.functions.Func0;
 import rx.functions.Func1;

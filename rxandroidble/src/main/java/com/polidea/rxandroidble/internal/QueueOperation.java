@@ -11,7 +11,7 @@ import com.polidea.rxandroidble.internal.util.QueueReleasingEmitterWrapper;
 
 import io.reactivex.Emitter;
 import io.reactivex.Observable;
-import rx.functions.Action1;
+import io.reactivex.functions.Consumer;
 
 /**
  * The base class for all operations that are executed on the Bluetooth Queue.
