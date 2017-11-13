@@ -8,7 +8,7 @@ import com.polidea.rxandroidble.internal.scan.EmulatedScanFilterMatcher;
 import com.polidea.rxandroidble.internal.scan.InternalScanResultCreator;
 import com.polidea.rxandroidble.internal.scan.RxBleInternalScanResult;
 import com.polidea.rxandroidble.internal.util.RxBleAdapterWrapper;
-import rx.Emitter;
+import io.reactivex.Emitter;
 
 public class ScanOperationApi18 extends ScanOperation<RxBleInternalScanResult, BluetoothAdapter.LeScanCallback> {
 

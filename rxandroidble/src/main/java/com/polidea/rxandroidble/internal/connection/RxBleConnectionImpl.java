@@ -30,7 +30,7 @@ import javax.inject.Named;
 import javax.inject.Provider;
 
 import rx.Completable;
-import rx.Emitter;
+import io.reactivex.Emitter;
 import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.functions.Action0;

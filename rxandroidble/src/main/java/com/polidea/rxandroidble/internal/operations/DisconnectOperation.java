@@ -21,7 +21,7 @@ import com.polidea.rxandroidble.internal.connection.RxBleGattCallback;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import rx.Emitter;
+import io.reactivex.Emitter;
 import io.reactivex.Observable;
 import rx.Observer;
 import rx.Scheduler;

@@ -4,7 +4,7 @@ package com.polidea.rxandroidble.internal.util;
 import com.polidea.rxandroidble.internal.QueueOperation;
 import com.polidea.rxandroidble.internal.serialization.QueueReleaseInterface;
 import java.util.concurrent.atomic.AtomicBoolean;
-import rx.Emitter;
+import io.reactivex.Emitter;
 import rx.Observer;
 import rx.functions.Cancellable;
 

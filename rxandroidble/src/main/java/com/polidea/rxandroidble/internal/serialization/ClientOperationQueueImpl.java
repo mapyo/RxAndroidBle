@@ -6,7 +6,7 @@ import com.polidea.rxandroidble.internal.RxBleLog;
 import com.polidea.rxandroidble.internal.operations.Operation;
 import javax.inject.Inject;
 import javax.inject.Named;
-import rx.Emitter;
+import io.reactivex.Emitter;
 import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.Subscription;

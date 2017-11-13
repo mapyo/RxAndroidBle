@@ -3,7 +3,7 @@ package com.polidea.rxandroidble
 import com.polidea.rxandroidble.exceptions.BleException
 import com.polidea.rxandroidble.internal.operations.Operation
 import com.polidea.rxandroidble.internal.serialization.ConnectionOperationQueue
-import rx.Emitter
+import io.reactivex.Emitter
 import io.reactivex.Observable
 import rx.Subscription
 import rx.functions.Action1

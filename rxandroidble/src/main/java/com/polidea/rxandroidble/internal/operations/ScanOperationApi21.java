@@ -17,7 +17,7 @@ import com.polidea.rxandroidble.internal.util.RxBleAdapterWrapper;
 import com.polidea.rxandroidble.scan.ScanFilter;
 import com.polidea.rxandroidble.scan.ScanSettings;
 import java.util.List;
-import rx.Emitter;
+import io.reactivex.Emitter;
 
 @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 public class ScanOperationApi21 extends ScanOperation<RxBleInternalScanResult, ScanCallback> {

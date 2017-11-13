@@ -20,7 +20,7 @@ import com.polidea.rxandroidble.internal.util.BleConnectionCompat;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import rx.Emitter;
+import io.reactivex.Emitter;
 import io.reactivex.Observable;
 import rx.Subscription;
 import rx.functions.Action0;

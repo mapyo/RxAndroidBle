@@ -15,7 +15,7 @@ import com.polidea.rxandroidble.internal.operations.TimeoutConfiguration;
 import com.polidea.rxandroidble.internal.serialization.QueueReleaseInterface;
 import com.polidea.rxandroidble.internal.util.QueueReleasingEmitterWrapper;
 import java.util.concurrent.TimeUnit;
-import rx.Emitter;
+import io.reactivex.Emitter;
 import io.reactivex.Observable;
 import rx.Scheduler;
 import rx.Subscription;
